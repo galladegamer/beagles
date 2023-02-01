@@ -1,0 +1,120 @@
+/* CSS Document */
+
+/* COLORS:
+
+	woofing white:        #e4f2ea;
+	tail-wagging tan:     #cba987;
+	beagle brown:         #382200;
+	bow-wow black:        #151111;
+	yipping yellow:       #ffee99;
+
+*/
+
+/* RESET CODE */
+html, body, header, h1, h2, blockquote, table, nav, main, footer {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+body {
+	background-color: #e4f2ea;
+}
+
+header {
+	min-height: 300px;
+	background-image: url("../images/homeBeagle.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 20% 20%;
+}
+
+.hnav {
+	padding: 5px 0;
+	width: 100%;
+	background-color: #cba987;
+	
+}
+
+.hnav ul {
+	display: block;
+	text-align: center;
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+.hnav ul li {
+	display: inline-block;
+	list-style: none;
+	width: 15%;
+}
+
+.hnav a {
+	color: #151111;
+	text-decoration: none;
+	font-size: 1.5em;
+}
+
+h1 {
+	
+}
+
+h2 {
+	
+}
+
+blockquote {
+	
+}
+
+table {
+	
+}
+
+footer {
+	
+}
+
+.fnav {
+	padding: 5px 0;
+	width: 100%;
+	background-color: #cba987;
+	
+}
+
+.fnav ul {
+	display: block;
+	text-align: center;
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+.fnav ul li {
+	display: inline-block;
+	list-style: none;
+	width: 15%;
+}
+
+.fnav a {
+	color: #151111;
+	text-decoration: none;
+	font-size: 1.5em;
+}
+
+a:link {
+	
+}
+
+a:hover {
+	
+}
+
+a:active {
+	
+}
+
+a:visited {
+	
+}
