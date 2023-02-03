@@ -1,17 +1,27 @@
 /* CSS Document */
 
+@import url('https://fonts.googleapis.com/css2?family=Cutive&family=Mochiy+Pop+One&family=Ultra&display=swap');
+
 /* COLORS:
 
-	woofing white:        #e4f2ea;
-	tail-wagging tan:     #cba987;
-	beagle brown:         #382200;
-	bow-wow black:        #151111;
-	yipping yellow:       #ffee99;
+	woofing white:                #e4f2ea;
+	tail-wagging tan:             #cba987;
+	beagle brown:                 #734f2f;
+	bow-wow black:                #151111;
+	double-beagle dark brown:     #53391f;
+
+*/
+
+/* FONTS:
+	
+	Peppy Beagle:     'Mochiy Pop One', sans-serif;
+	Thicc Beagle:     'Ultra', serif;
+	Silly Beagle:     'Cutive', serif;
 
 */
 
 /* RESET CODE */
-html, body, header, h1, h2, blockquote, table, nav, main, footer {
+* {
 	padding: 0;
 	margin: 0;
 	border: 0;
@@ -30,7 +40,7 @@ header {
 }
 
 .hnav {
-	padding: 5px 0;
+	padding: 10px 0;
 	width: 100%;
 	background-color: #cba987;
 	
@@ -42,6 +52,7 @@ header {
 	margin: 0;
 	border: 0;
 	padding: 0;
+	width: 100%;
 }
 
 .hnav ul li {
@@ -54,10 +65,222 @@ header {
 	color: #151111;
 	text-decoration: none;
 	font-size: 1.5em;
+	transition: 0.3s all;
+}
+
+.hnav a:link {
+	
+}
+
+.hnav a:hover {
+	color: #53391f;
+	letter-spacing: 1px;
+}
+
+.hnav a:active {
+	
+}
+
+.hnav a:visited {
+	
 }
 
 h1 {
 	
+}
+
+header h1 {
+	text-align: center;
+	color: #734f2f;
+	font-weight: bold;
+	font-size: 7em;
+	font-family: 'Mochiy Pop One', sans-serif;
+	text-shadow: -1.5px -1.5px 0 #151111, 1.5px -1.5px 0 #151111, -1.5px 1.5px 0 #151111, 1.5px 1.5px 0 #151111;
+}
+
+header h2 {
+	text-align: center;
+	color: #53391f;
+	font-size: 3em;
+	font-family: 'Impact', sans-serif;
+	text-shadow: -1px -1px 0 #151111, 1px -1px 0 #151111, -1px 1px 0 #151111, 1px 1px 0 #151111;
+}
+
+main {
+	font-family: 'Cutive', serif;
+	width: 100%;
+	min-height: 600px;
+	font-size: 1.5em;
+	color: #151111;
+	line-height: 1.5em;
+}
+
+main h1 {
+	text-align: center;
+}
+
+main a {
+	text-decoration: none;
+	color: #373333;
+}
+
+/*COLORS*/
+
+.blue {
+	color: #000056;
+}
+.magenta {
+	color: #560056;
+}
+a .blue {
+	color: #373356;
+}
+a .magenta {
+	color: #563356;
+}
+.gold {
+	color: #565600;
+}
+.silver {
+	color: #565656;
+}
+.bronze {
+	color: #563400;
+}
+
+.white {
+	color: #e4f2ea;
+}
+.brown {
+	color: #734f2f;
+}
+.black {
+	color: #53391f;
+}
+.tan {
+	color: #cba987;
+}
+
+.tan2 {
+	color: #774411;
+}
+.white2 {
+	color: #666666;
+}
+.black2 {
+	color: #000000;
+}
+.lemon {
+	color: #776611;
+}
+.red {
+	color: #771100;
+}
+.red2 {
+	color: #770000;
+}
+.red3 {
+	color: #773300;
+}
+.liver {
+	color: #553300;
+}
+.blue2 {
+	color: #000066;
+}
+
+.tri1 {
+	color: #666666;
+}
+.tri2 {
+	color: #000000;
+}
+.tri3 {
+	color: #623E1E;
+}
+
+#v1 {
+	color: #660000;
+}
+#v2 {
+	color: #663300;
+}
+#v3 {
+	color: #666600;
+}
+#v4 {
+	color: #336600;
+}
+#v5 {
+	color: #006600;
+}
+#v6 {
+	color: #006633;
+}
+#v7 {
+	color: #006666;
+}
+#v8 {
+	color: #003366;
+}
+#v9 {
+	color: #000066;
+}
+#v10 {
+	color: #330066;
+}
+#v11 {
+	color: #660066;
+}
+#v12 {
+	color: #660033;
+}
+#v13 {
+	color: #660000;
+}
+
+/* FONT STYLES*/
+
+.italics {
+	font-style: italic;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+/*BUTTONS*/
+
+.button {
+	padding: 5px 10px;
+	border-radius: 10px;
+	background-color: #cba987;
+	font-weight: bold;
+	font-size:.8em;
+	color: #151111;
+	transition: 0.2s all;
+}
+
+.button:hover {
+	cursor: pointer;
+	background-color: #ba9876;
+}
+
+#submit:hover {
+	background-color: #badd76;
+	color: #155611;
+}
+
+#reset:hover {
+	background-color: #ff9876;
+	color: #601111;
+}
+
+#container {
+	padding: 5% 0;
+	margin: 0 auto;
+	width: 80%;
+	min-height: 200px;
 }
 
 h2 {
@@ -73,14 +296,33 @@ table {
 }
 
 footer {
-	
+	background-color: #ffffff;
+}
+
+img {
+	width: 100%;
+}
+
+.image {
+	text-align: center;
+}
+#templateImage {
+	transform: rotate(180deg);
+}
+
+label {
+	color: #151111;
+}
+
+footer h4, footer h5, footer h6 {
+	text-align: center;
+	margin: 1px;
 }
 
 .fnav {
-	padding: 5px 0;
+	padding: 10px 0;
 	width: 100%;
 	background-color: #cba987;
-	
 }
 
 .fnav ul {
@@ -101,8 +343,25 @@ footer {
 	color: #151111;
 	text-decoration: none;
 	font-size: 1.5em;
+	transition: 0.3s all;
 }
 
+.fnav a:link {
+	
+}
+
+.fnav a:hover {
+	color: #53391f;
+	letter-spacing: 1px;
+}
+
+.fnav a:active {
+	
+}
+
+.fnav a:visited {
+	
+}
 a:link {
 	
 }
@@ -117,4 +376,14 @@ a:active {
 
 a:visited {
 	
+}
+
+.hahaFunnyTemplateJoke {
+	text-align: center;
+	color: #cc0000;
+	animation: wow 0.5s ease-in-out infinite alternate
+}
+@keyframes wow {
+	0% {color: #ff0000;}
+	100% {color: #990000;}
 }
