@@ -381,7 +381,8 @@ a:visited {
 .hahaFunnyTemplateJoke {
 	text-align: center;
 	color: #cc0000;
-	animation: wow 0.5s ease-in-out infinite alternate
+	animation: wow 0.5s ease-in-out infinite alternate;
+	font-family: 'Arial', sans-serif;
 }
 @keyframes wow {
 	0% {color: #ff0000;}
