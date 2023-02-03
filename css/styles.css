@@ -208,42 +208,251 @@ a .magenta {
 
 #v1 {
 	color: #660000;
+	animation: color1 1s infinite linear;
 }
 #v2 {
 	color: #663300;
+	animation: color2 1s infinite linear;
 }
 #v3 {
 	color: #666600;
+	animation: color3 1s infinite linear;
 }
 #v4 {
 	color: #336600;
+	animation: color4 1s infinite linear;
 }
 #v5 {
 	color: #006600;
+	animation: color5 1s infinite linear;
 }
 #v6 {
 	color: #006633;
+	animation: color6 1s infinite linear;
 }
 #v7 {
 	color: #006666;
+	animation: color7 1s infinite linear;
 }
 #v8 {
 	color: #003366;
+	animation: color8 1s infinite linear;
 }
 #v9 {
 	color: #000066;
+	animation: color9 1s infinite linear;
 }
 #v10 {
 	color: #330066;
+	animation: color10 1s infinite linear;
 }
 #v11 {
 	color: #660066;
+	animation: color11 1s infinite linear;
 }
 #v12 {
 	color: #660033;
+	animation: color12 1s infinite linear;
 }
 #v13 {
 	color: #660000;
+	animation: color13 1s infinite linear;
+}
+
+@keyframes color1 {
+	0% {color: #660000;}
+	7.5% {color: #663300;}
+	15.3% {color: #666600;}
+	22.7% {color: #336600;}
+	33% {color: #006600;}
+	37.5% {color: #006633;}
+	45.3% {color: #006666;}
+	52.7% {color: #003366;}
+	66% {color: #000066;}
+	67.5% {color: #330066;}
+	75.3% {color: #660066;}
+	82.7% {color: #660033;}
+	100% {color: #660000;}
+}
+@keyframes color2 {
+	0% {color: #663300;}
+	7.6% {color: #666600;}
+	15.3% {color: #336600;}
+	22.7% {color: #006600;}
+	33% {color: #006633;}
+	37.6% {color: #006666;}
+	45.3% {color: #003366;}
+	52.7% {color: #000066;}
+	66% {color: #330066;}
+	67.6% {color: #660066;}
+	75.3% {color: #660033;}
+	82.7% {color: #660000;}
+	100% {color: #663300;}
+}
+@keyframes color3 {
+	0% {color: #666600;}
+	7.6% {color: #336600;}
+	15.3% {color: #006600;}
+	22.7% {color: #006633;}
+	33% {color: #006666;}
+	37.6% {color: #003366;}
+	45.3% {color: #000066;}
+	52.7% {color: #330066;}
+	66% {color: #660066;}
+	67.6% {color: #660033;}
+	75.3% {color: #660000;}
+	82.7% {color: #663300;}
+	100% {color: #666600;}
+}
+@keyframes color4 {
+	0% {color: #336600;}
+	7.6% {color: #006600;}
+	15.3% {color: #006633;}
+	22.7% {color: #006666;}
+	33% {color: #003366;}
+	37.6% {color: #000066;}
+	45.3% {color: #330066;}
+	52.7% {color: #660066;}
+	66% {color: #660033;}
+	67.6% {color: #660000;}
+	75.3% {color: #663300;}
+	82.7% {color: #666600;}
+	100% {color: #336600;}
+}
+@keyframes color5 {
+	0% {color: #006600;}
+	7.6% {color: #006633;}
+	15.3% {color: #006666;}
+	22.7% {color: #003366;}
+	33% {color: #000066;}
+	37.6% {color: #330066;}
+	45.3% {color: #660066;}
+	52.7% {color: #660033;}
+	66% {color: #660000;}
+	67.6% {color: #663300;}
+	75.3% {color: #666600;}
+	82.7% {color: #336600;}
+	100% {color: #336600;}
+}
+@keyframes color6 {
+	0% {color: #006633;}
+	7.6% {color: #006666;}
+	15.3% {color: #003366;}
+	22.7% {color: #000066;}
+	33% {color: #330066;}
+	37.6% {color: #660066;}
+	45.3% {color: #660033;}
+	52.7% {color: #660000;}
+	66% {color: #663300;}
+	67.6% {color: #666600;}
+	75.3% {color: #336600;}
+	82.7% {color: #006600;}
+	100% {color: #006633;}
+}
+@keyframes color7 {
+	0% {color: #006666;}
+	7.6% {color: #003366;}
+	15.3% {color: #000066;}
+	22.7% {color: #330066;}
+	33% {color: #660066;}
+	37.6% {color: #660033;}
+	45.3% {color: #660000;}
+	52.7% {color: #663300;}
+	66% {color: #666600;}
+	67.6% {color: #336600;}
+	75.3% {color: #006600;}
+	82.7% {color: #006633;}
+	100% {color: #006666;}
+}
+@keyframes color8 {
+	0% {color: #003366;}
+	7.6% {color: #000066;}
+	15.3% {color: #330066;}
+	22.7% {color: #660066;}
+	33% {color: #660033;}
+	37.6% {color: #660000;}
+	45.3% {color: #663300;}
+	52.7% {color: #666600;}
+	66% {color: #336600;}
+	67.6% {color: #006600;}
+	75.3% {color: #006633;}
+	82.7% {color: #006666;}
+	100% {color: #003366;}
+}
+@keyframes color9 {
+	0% {color: #000066;}
+	7.6% {color: #330066;}
+	15.3% {color: #660066;}
+	22.7% {color: #660033;}
+	33% {color: #660000;}
+	37.6% {color: #663300;}
+	45.3% {color: #666600;}
+	52.7% {color: #336600;}
+	66% {color: #006600;}
+	67.6% {color: #006633;}
+	75.3% {color: #006666;}
+	82.7% {color: #003366;}
+	100% {color: #000066;}
+}
+@keyframes color10 {
+	0% {color: #330066;}
+	7.6% {color: #660066;}
+	15.3% {color: #660033;}
+	22.7% {color: #660000;}
+	33% {color: #663300;}
+	37.6% {color: #666600;}
+	45.3% {color: #336600;}
+	52.7% {color: #006600;}
+	66% {color: #006633;}
+	67.6% {color: #006666;}
+	75.3% {color: #003366;}
+	82.7% {color: #000066;}
+	100% {color: #330066;}
+}
+@keyframes color11 {
+	0% {color: #660066;}
+	7.6% {color: #660033;}
+	15.3% {color: #660000;}
+	22.7% {color: #663300;}
+	33% {color: #666600;}
+	37.6% {color: #336600;}
+	45.3% {color: #006600;}
+	52.7% {color: #006633;}
+	66% {color: #006666;}
+	67.6% {color: #003366;}
+	75.3% {color: #000066;}
+	82.7% {color: #330066;}
+	100% {color: #660066;}
+}
+@keyframes color12 {
+	0% {color: #660033;}
+	7.6% {color: #660000;}
+	15.3% {color: #663300;}
+	22.7% {color: #666600;}
+	33% {color: #336600;}
+	37.6% {color: #006600;}
+	45.3% {color: #006633;}
+	52.7% {color: #006666;}
+	66% {color: #003366;}
+	67.6% {color: #000066;}
+	75.3% {color: #330066;}
+	82.7% {color: #660066;}
+	100% {color: #660033;}
+}
+@keyframes color13 {
+	0% {color: #660000;}
+	7.6% {color: #663300;}
+	15.3% {color: #666600;}
+	22.7% {color: #336600;}
+	33% {color: #006600;}
+	37.6% {color: #006633;}
+	45.3% {color: #006666;}
+	52.7% {color: #003366;}
+	66% {color: #000066;}
+	67.6% {color: #330066;}
+	75.3% {color: #660066;}
+	82.7% {color: #660033;}
+	100% {color: #660000;}
 }
 
 /* FONT STYLES*/
